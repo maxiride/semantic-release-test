@@ -12,7 +12,7 @@
     "@semantic-release/release-notes-generator",
     ["@semantic-release/exec",
       {
-        "verifyConditionsCmd": "::set-output name=nextVer::9.9.9"
+        "verifyConditionsCmd": "echo ::set-output name=nextVer::9.9.9"
       }
     ]
   ]
