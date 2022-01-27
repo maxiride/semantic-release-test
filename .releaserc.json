@@ -13,7 +13,7 @@
     "@semantic-release/github",
     ["@semantic-release/exec",
       {
-        "verifyConditionsCmd": "echo ::set-output name=nextVer::9.9.9"
+        "verifyConditionsCmd": "echo ::set-output name=nextVer::${nextRelease.version}"
       }
     ]
   ]
